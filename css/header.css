@@ -1,0 +1,29 @@
+
+.header {
+    background: no-repeat url('../assets/bg-header.png');
+    width: 100%;
+    height: 305px;
+    background-size: 100% auto;
+}
+
+.header__content p:nth-child(3) {
+    font-size: 1.6em;
+}
+
+.header__content p:nth-child(4) {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.navbar-nav > .nav-item > .nav-link:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #9D65A4;
+    transition: 0.3s;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover:after {
+    width: 100%;
+}

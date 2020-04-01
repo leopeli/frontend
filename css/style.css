@@ -1,0 +1,41 @@
+@import "./header.css";
+@import "./carousel.css";
+@import "./equipe.css";
+@import "./recomendacoes.css";
+@import "./footer.css";
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    padding-top: 69px;
+}
+
+textarea {
+    resize: none;
+}
+
+::selection {
+    background-color: #9D65A4;
+    color: #fff;
+}
+
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+}

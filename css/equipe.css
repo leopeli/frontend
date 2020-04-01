@@ -1,0 +1,11 @@
+.equipe .card--pequeno {
+    height: 130px;
+}
+
+.equipe .card--medio {
+    height: 160px;
+}
+
+.equipe .card--grande {
+    height: 200px;
+}
